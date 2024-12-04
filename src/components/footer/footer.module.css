@@ -1,0 +1,84 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+    justify-content: start;
+    font-family: 'Montserrat';
+    gap: 3em;
+    padding: 2em;
+    color: white;
+    padding-left: 5em;
+    background: conic-gradient(from 245deg at 80% 40%, #2E0099 0deg, #36EEB1 180deg, #FFAE00 270deg, #FF4000 360deg);
+}
+button{
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 20px;
+    letter-Spacing: 4.40px;
+}
+.navList{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 1em;
+}
+.navItem{
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 4px
+}
+.about{
+    display: flex;
+    color: white;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 20em;
+}
+.about p:nth-child(2){
+    font-family: 'Montserrat Alternates';
+    font-size: 1em;
+    letter-spacing: 2.60px
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    gap: 1em
+}
+.contacts p{
+    font-family: 'Montserrat';
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 20px;
+    letter-Spacing: 4.40px;
+}
+.address{
+    color: white;
+    font-family: 'Jura';
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em
+}
+.address a{
+    text-decoration: none;
+    color: white;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    gap: 2em
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+.socials svg{
+    width: auto;
+    height: 2em;
+}

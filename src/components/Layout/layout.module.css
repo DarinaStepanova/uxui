@@ -1,0 +1,23 @@
+.Home{
+    background:
+    linear-gradient(270deg, rgba(77, 0, 255) 10%, transparent),
+    linear-gradient(0deg,rgba(255, 174, 0) 25%, transparent),  
+    linear-gradient(90deg, rgba(255, 64, 0) 25%, transparent),
+    linear-gradient(180deg,  rgba(54, 238, 177) 40%, transparent),
+    linear-gradient(rgba(1, 0, 0, 0.678), rgba(0, 0, 0, 0.8));
+    backdrop-filter: -webkit-brightness(60%); /* Для старых версий WebKit */
+    /* background: radial-gradient(at 0.5% 15%, hsla(15, 100%, 50%, 1) 0%, 
+    hsla(0, 100%, 50%, 0) 100%), 
+    radial-gradient(at 11% 97%, hsla(160, 84%, 57%, 1) 0%, 
+    hsla(0, 100%, 50%, 0) 100%), 
+    radial-gradient(at 31% 99%, hsla(41, 100%, 50%, 1) 0%, 
+    hsla(0, 100%, 50%, 0) 100%), 
+    radial-gradient(at 3% 20%, hsla(258, 100%, 50%, 1) 0% 100%); */
+}
+.Home footer{
+    background: black;
+}
+.Other{
+    background: white;
+    height: 100vh;
+}

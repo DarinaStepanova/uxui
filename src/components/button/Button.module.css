@@ -1,0 +1,53 @@
+.btn {
+    width: 96%; 
+    height: 3em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    line-height: 20px;
+    letter-Spacing: 4.40px;
+}
+
+.btn-blue {
+    background: linear-gradient(90deg, #2E0099 0%, #FF4000 100%);
+    font-size: 1.5em;
+    font-family: 'Montserrat Alternates';
+    font-weight: bold;
+}
+.btn-green {
+    background: linear-gradient(90deg, #4D00FF 0%, #36EEB1 100%);
+    font-size: 1.2em;
+    width: auto;
+    font-family: 'Montserrat Alternates';
+    font-weight: bold;
+}
+.btn-small {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+.btn-medium {
+    background: none;
+    font-size: 1em;
+    font-family: 'Montserrat Alternates';
+    font-weight: bold;
+    box-shadow: none;
+}
+/* .btn-large {
+font-size: 18px;
+padding: 15px 30px;
+} */
+.btn-large:active { 
+    transform: scale(0.98); 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+} 
+.btn-large:hover {
+    filter: brightness(150%);
+    -moz-box-shadow: 10px 10px 0px #ffffff;
+    -webkit-box-shadow: 10px 10px 0px #ffffff;
+    box-shadow: 3px 2px 22px 1px rgba(255, 255, 255, 0.24);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}

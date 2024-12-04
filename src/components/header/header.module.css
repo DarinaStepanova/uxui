@@ -1,0 +1,43 @@
+.header {
+     padding-top: 5em;
+     padding-right: 3em;
+}
+.navList {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    gap: 3em;
+}
+.navItem {
+     margin-right: 15px;
+}
+.navItem button {   
+    background: none;
+    border: none;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    word-wrap: break-word;
+    letter-spacing: 0.3em;
+    cursor: pointer;
+}
+.navItem button:hover {
+    transform: scale(1.2); /* Увеличение размера при наведении */
+}
+.navList_other{
+     display: flex;
+     list-style-type: none;
+     justify-content: space-evenly;
+     margin-left: 6em;
+     align-items: center;
+     padding: 0;
+}
+.navList_other h1{
+     color: transparent;    
+     -webkit-background-clip: text;
+     background-clip: text;
+     background-image: linear-gradient(to right, #ffae00,  #ff4000);
+}
